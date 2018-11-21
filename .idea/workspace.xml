@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184c1af6-79c0-44c9-9989-16791f1bd1dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList$DLListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList$DLListIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DrawGraph$GraphLayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DrawGraph$GraphLayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DrawGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DrawGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppgift1/MaxSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift1/MaxSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift2/DLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift2/DLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppgift2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +49,7 @@
     <session id="-1214123802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="2" />
@@ -60,40 +58,71 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="5" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="414" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Uppgift1/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Uppgift2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#drawShape#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Uppgift2/DLList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="220" column="9" lean-forward="true" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
+              <folding>
+                <element signature="e#839#845#0" expanded="true" />
+                <element signature="class#Node#0;class#DLList#0" />
+                <element signature="method#readShape#0;class#DLList#0" />
+                <element signature="method#importanceOfP#0;class#DLList#0" />
+                <element signature="class#DLListIterator#0;class#DLList#0" />
+                <element signature="method#toString#0;class#DLList#0" />
+                <element signature="method#createFakeShape#0;class#DLList#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>args</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,13 +130,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Uppgift2/Main.java" />
-        <option value="$PROJECT_DIR$/src/Uppgift2/DLList.java" />
         <option value="$PROJECT_DIR$/src/Uppgift2/DrawGraph.java" />
         <option value="$PROJECT_DIR$/src/Uppgift1/MaxSum.java" />
         <option value="$PROJECT_DIR$/src/Uppgift1/Main.java" />
         <option value="$PROJECT_DIR$/src/Uppgift1/MaxSumTest.java" />
         <option value="$PROJECT_DIR$/data.txt" />
+        <option value="$PROJECT_DIR$/src/Uppgift2/Main.java" />
+        <option value="$PROJECT_DIR$/src/Uppgift2/DLList.java" />
       </list>
     </option>
   </component>
@@ -147,6 +176,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Uppgift1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tda416-2018-osvald-isak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tda416-2018-osvald-isak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Uppgift2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -155,7 +190,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542802214858" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542808204304" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,23 +204,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxSumTest">
+  <component name="RunManager" selected="Application.Whatev">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tda416-2018-osvald-isak" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uppgift2.Main" />
-      <module name="tda416-2018-osvald-isak" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Uppgift2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,17 +235,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Whatev" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Uppgift2.Main" />
+      <module name="tda416-2018-osvald-isak" />
+      <option name="PROGRAM_PARAMETERS" value="-d -k8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Uppgift2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Whatev" />
       <item itemvalue="Application.MaxSumTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Whatev" />
         <item itemvalue="Application.MaxSumTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -254,7 +289,7 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2956381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,12 +298,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901135" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -286,24 +321,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Uppgift2/DLList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Uppgift2/DrawGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Uppgift2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -335,8 +356,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Uppgift1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tda416-2018-osvald-isak.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Uppgift2/DrawGraph$SpecShape.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Uppgift2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#drawShape#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Uppgift2/fig1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Uppgift2/DLList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="220" column="9" lean-forward="true" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
+          <folding>
+            <element signature="e#839#845#0" expanded="true" />
+            <element signature="class#Node#0;class#DLList#0" />
+            <element signature="method#readShape#0;class#DLList#0" />
+            <element signature="method#importanceOfP#0;class#DLList#0" />
+            <element signature="class#DLListIterator#0;class#DLList#0" />
+            <element signature="method#toString#0;class#DLList#0" />
+            <element signature="method#createFakeShape#0;class#DLList#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -50,9 +50,12 @@ public class DLList {
 		
 		public int compareTo( Node n ) {
 			double diff= imp-n.imp;
-			if (diff<0) { return -1;
-			} else if (diff > 0) { return +1;
-			} else { return 0; }
+			if (diff<0) {
+				return -1;
+			} else if (diff > 0) {
+				return +1;
+			} else {
+				return 0; }
 		}
 	} //end class Node
 	
@@ -207,7 +210,21 @@ public class DLList {
 	* @throws NullPointerException if p==null
 	*/
 	public void addLast(Point p) {
-		// TODO
+		if(p == null){
+			throw new NullPointerException();
+		}
+
+		Node newNode = new Node(p,size);
+		if(this.tail != null){
+			newNode.prev = this.tail;
+			newNode.prev.next = newNode;
+		}
+
+		this.tail = newNode;
+		if(this.head == null){
+			this.head = newNode;
+		}
+		size++;
 	} // end addLast
 	// ============================================================
 	/**
@@ -217,13 +234,21 @@ public class DLList {
 	*/
 	public void reduceListToKElements(int k) {
 		// TODO
+
+
+		Node p = this.head;
+
 		// Calculates the initial important measure for all nodes.
+
+
 		// Assume there are at least 3 nodes otherwise it's all meaningless.
 		
 		// now reduce the list to the k most important nodes
 		
 			// recalculate importance for rem.next, neighbour to the right
 			// and rem.prev, neighbour to the left
+
+
 
 	}
 

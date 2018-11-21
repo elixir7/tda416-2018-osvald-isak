@@ -15,7 +15,7 @@ public class Main {
 
 	/**
 	* Draws a line between every point in the list.
-	* @param it an iterator over the löist to draw
+	* @param it an iterator over the list to draw
 	* @param shape the graphics area tu draw in
 	* @param c The color to draw in
 	* @param layer draw in base layer (true) or overlay layer (false)
