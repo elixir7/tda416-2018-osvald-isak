@@ -119,7 +119,7 @@ public class MaxSumTest {
 		// =============================================================
 		// things that can be changed
 		// tests are done with arrays of size 64, 128, 256, ..., maxSizeOfArray
-		int maxSizeOfArray = 5000;  // make as large as possible
+		int maxSizeOfArray = 5000*1000;  // make as large as possible
 		
 		// nbr of times that MaxSum.maxSubSumx is called
 		// (one call is so fast that you don't get reliable information)
@@ -128,8 +128,8 @@ public class MaxSumTest {
 		// it takes very long to run slow algorithms at big arrays
 		// so the slow algorithms are not run above these limits
 		// make them as large as possible but balance with size of nbrOfTests
-		int limit1 = 300;
-		int limit2 = 2048;
+		int limit1 = 600;
+		int limit2 = 4096;
 		// end of things to change
 		// =============================================================
 		System.out.println("simple correctness test");

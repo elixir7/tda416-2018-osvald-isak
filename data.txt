@@ -1,0 +1,9 @@
+simple correctness test
+#1 Max sum is 11; it goes from 0 to 6
+#2 Max sum is 11; it goes from 0 to 6
+#3 Max sum is 11; it goes from 0 to 6
+>>>Time is seconds per 2000 calls to MaxSubSum
+Size of Array ->         64        128        256        512       1024       2048       4096       8192      16384      32768      65536     131072     262144     524288    1048576    2097152    4194304
+algo  #1             0.058s     0.313s     1.753s    14.932s          -          -          -          -          -          -          -          -          -          -          -          -          -
+algo  #2             0.004s     0.006s     0.025s     0.105s     0.394s     1.646s     6.108s          -          -          -          -          -          -          -          -          -          -
+algo  #3             0.001s     0.002s     0.002s     0.001s     0.001s     0.002s     0.004s     0.009s     0.018s     0.037s     0.083s     0.179s     0.363s     0.993s     1.541s     3.148s     6.539s
