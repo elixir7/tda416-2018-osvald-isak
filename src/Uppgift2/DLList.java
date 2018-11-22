@@ -211,7 +211,7 @@ public class DLList {
 	*/
 	public void addLast(Point p) {
 		if(p == null){
-			throw new NullPointerException();
+			throw new NullPointerException("The point p is not allowed to be null");
 		}
 
 		Node newNode = new Node(p,size);
@@ -233,23 +233,49 @@ public class DLList {
 	* @throws NoSuchElementException if the priority queue becomes empty
 	*/
 	public void reduceListToKElements(int k) {
-		// TODO
-
-
-		Node p = this.head;
 
 		// Calculates the initial important measure for all nodes.
-
-
 		// Assume there are at least 3 nodes otherwise it's all meaningless.
-		
-		// now reduce the list to the k most important nodes
-		
-			// recalculate importance for rem.next, neighbour to the right
-			// and rem.prev, neighbour to the left
+		Node node = this.head;
+		node = node.next;
+		while(node != this.tail) {
+			node.imp = importanceOfP(node.prev.p, node.p, node.next.p);
+			q.add(node);
+			node = node.next;
+		}
 
+		//Reduce number of points while size is larger than k
+		while(size > k){
+			//Retrieves and removes from que.
+			Node leastSig = q.poll();
 
+			Node leftNode = leastSig.prev;
+			Node rightNode = leastSig.next;
 
+			leftNode.next = rightNode; //Link the left to the right neighbour
+			rightNode.prev = leftNode; //Link the right to the left neighbour
+
+			//Since que doesn't update values we first remove the ones which are bout to get updated
+			q.remove(leftNode);
+			q.remove(rightNode);
+
+			//We then update the nodes
+			calculateImportanceOfP(leftNode.prev, leftNode, leftNode.next);
+			calculateImportanceOfP(rightNode.prev, rightNode, rightNode.next);
+
+			//Then we add them back
+			q.add(leftNode);
+			q.add(rightNode);
+
+			size--;
+		}
 	}
 
+	//Helper method for checking if the node is head or tail, which we shouldn't recalculate.
+	public void calculateImportanceOfP(Node leftNode, Node middleNode, Node rightNode){
+		if(leftNode != null && rightNode != null){
+			//ok to calculate
+			middleNode.imp = importanceOfP(leftNode.p, middleNode.p, rightNode.p);
+		}
+	}
 }
