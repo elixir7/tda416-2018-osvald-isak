@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="184c1af6-79c0-44c9-9989-16791f1bd1dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Uppgift2/DLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppgift2/DLList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SLCWithGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SplayWithGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tda416-2018-osvald-isak/Uppgift2/DLList.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,24 +47,26 @@
     <session id="-1214123802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2282" />
+          <entry key="JAVA" value="5512" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="23" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -69,52 +74,73 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="5" />
+          <entry key="java" value="23" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2282" />
+          <entry key="java" value="5512" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tda416-2018-osvald-isak" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Uppgift2/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="117" column="17" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#drawShape#0;class#Main#0" />
+                <element signature="e#1246#1302#0" expanded="true" />
+                <element signature="e#2092#2114#0" expanded="true" />
+                <element signature="class#RadioLyssnare#0;class#TestFrame#0" />
+                <element signature="method#TestFrame#0;class#TestFrame#0" />
+                <element signature="method#actionPerformed#0;class#TestFrame#0" />
+                <element signature="method#findRefs#0;class#TestFrame#0" />
+                <element signature="method#testSLC#0;class#TestFrame#0" />
+                <element signature="class#SpecialString#0" />
+                <element signature="e#9974#9975#0" expanded="true" />
+                <element signature="e#9991#9992#0" expanded="true" />
+                <element signature="e#10044#10045#0" expanded="true" />
+                <element signature="e#10106#10107#0" expanded="true" />
+                <element signature="e#10146#10147#0" expanded="true" />
+                <element signature="e#10161#10162#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Uppgift2/fig1.txt">
+        <entry file="file://$PROJECT_DIR$/src/SLCWithGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" lean-forward="true" selection-end-line="25" />
+            <state relative-caret-position="435">
+              <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
+              <folding>
+                <element signature="method#add#0;class#SLCWithGet#0" />
+                <element signature="method#get#0;class#SLCWithGet#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Uppgift2/DLList.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="281" lean-forward="true" selection-start-line="281" selection-end-line="281" />
+            <state relative-caret-position="1079">
+              <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
               <folding>
-                <element signature="e#839#845#0" expanded="true" />
-                <element signature="method#readShape#0;class#DLList#0" />
-                <element signature="class#DLListIterator#0;class#DLList#0" />
-                <element signature="method#toString#0;class#DLList#0" />
-                <element signature="method#createFakeShape#0;class#DLList#0" />
+                <element signature="class#Entry#0;class#LinkedCollection#0" />
+                <element signature="method#size#0;class#LinkedCollection#0" />
+                <element signature="method#add#0;class#LinkedCollection#0" />
+                <element signature="method#isEmpty#0;class#LinkedCollection#0" />
+                <element signature="method#clear#0;class#LinkedCollection#0" />
+                <element signature="class#LinkedCollectionIterator#0;class#LinkedCollection#0" />
               </folding>
             </state>
           </provider>
@@ -122,9 +148,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>args</find>
+      <find>c</find>
+      <find>toString</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,6 +175,13 @@
         <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/src/Uppgift2/Main.java" />
         <option value="$PROJECT_DIR$/src/Uppgift2/DLList.java" />
+        <option value="$PROJECT_DIR$/src/Labb2/SLCWithGet.java" />
+        <option value="$PROJECT_DIR$/src/Labb2/TestFrame.java" />
+        <option value="$PROJECT_DIR$/src/Labb2/CollectionWithGet.java" />
+        <option value="$PROJECT_DIR$/src/CollectionWithGet.java" />
+        <option value="$PROJECT_DIR$/src/LinkedCollection.java" />
+        <option value="$PROJECT_DIR$/src/SLCWithGet.java" />
+        <option value="$PROJECT_DIR$/src/TestFrame.java" />
       </list>
     </option>
   </component>
@@ -154,8 +196,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,24 +210,6 @@
               <item name="tda416-2018-osvald-isak" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tda416-2018-osvald-isak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tda416-2018-osvald-isak" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PDF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tda416-2018-osvald-isak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tda416-2018-osvald-isak" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Uppgift1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tda416-2018-osvald-isak" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tda416-2018-osvald-isak" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Uppgift2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -193,11 +217,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542808204304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543321360828" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,9 +240,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Whatev">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.TestFrame">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
       <module name="tda416-2018-osvald-isak" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,6 +271,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestFrame" />
+      <module name="tda416-2018-osvald-isak" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Whatev" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Uppgift2.Main" />
       <module name="tda416-2018-osvald-isak" />
@@ -258,16 +294,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Whatev" />
       <item itemvalue="Application.MaxSumTest" />
+      <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.TestFrame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFrame" />
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.Whatev" />
         <item itemvalue="Application.MaxSumTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -297,20 +335,20 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2197092" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.22617124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008104" side_tool="true" weight="0.22617124" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32901135" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30307943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32901135" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901135" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
@@ -373,17 +411,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Uppgift2/DrawGraph$SpecShape.class" />
-    <entry file="file://$PROJECT_DIR$/src/Uppgift2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="117" column="17" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#drawShape#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Uppgift2/fig5.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -405,23 +432,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Uppgift2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="117" column="17" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#drawShape#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Uppgift2/fig1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="true" selection-end-line="25" />
+          <caret line="8" column="3" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Uppgift2/DLList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="281" lean-forward="true" selection-start-line="281" selection-end-line="281" />
+        <state relative-caret-position="2546">
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
           <folding>
             <element signature="e#839#845#0" expanded="true" />
             <element signature="method#readShape#0;class#DLList#0" />
             <element signature="class#DLListIterator#0;class#DLList#0" />
             <element signature="method#toString#0;class#DLList#0" />
             <element signature="method#createFakeShape#0;class#DLList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVL_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jjj.java" />
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="361" column="26" selection-start-line="361" selection-start-column="26" selection-end-line="361" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SplayWithGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMapWithCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BSTwithGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionWithGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SLCWithGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
+          <folding>
+            <element signature="method#add#0;class#SLCWithGet#0" />
+            <element signature="method#get#0;class#SLCWithGet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1079">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+          <folding>
+            <element signature="class#Entry#0;class#LinkedCollection#0" />
+            <element signature="method#size#0;class#LinkedCollection#0" />
+            <element signature="method#add#0;class#LinkedCollection#0" />
+            <element signature="method#isEmpty#0;class#LinkedCollection#0" />
+            <element signature="method#clear#0;class#LinkedCollection#0" />
+            <element signature="class#LinkedCollectionIterator#0;class#LinkedCollection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1302#0" expanded="true" />
+            <element signature="e#2092#2114#0" expanded="true" />
+            <element signature="class#RadioLyssnare#0;class#TestFrame#0" />
+            <element signature="method#TestFrame#0;class#TestFrame#0" />
+            <element signature="method#actionPerformed#0;class#TestFrame#0" />
+            <element signature="method#findRefs#0;class#TestFrame#0" />
+            <element signature="method#testSLC#0;class#TestFrame#0" />
+            <element signature="class#SpecialString#0" />
+            <element signature="e#9974#9975#0" expanded="true" />
+            <element signature="e#9991#9992#0" expanded="true" />
+            <element signature="e#10044#10045#0" expanded="true" />
+            <element signature="e#10106#10107#0" expanded="true" />
+            <element signature="e#10146#10147#0" expanded="true" />
+            <element signature="e#10161#10162#0" expanded="true" />
           </folding>
         </state>
       </provider>
