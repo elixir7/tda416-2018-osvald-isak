@@ -12,7 +12,7 @@ public class AVLwithGet<E extends Comparable<? super E>>
 						extends AVL_Tree<E>
 						implements CollectionWithGet<E>  {
 	/**
-	* Constructor for objects of class BSTwithGet
+	* Constructor for objects of class BSTWithGet
 	*/
 	public AVLwithGet() {
 		super();

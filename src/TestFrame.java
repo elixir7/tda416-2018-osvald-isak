@@ -32,22 +32,21 @@ public class TestFrame extends JFrame implements ActionListener {
 /* ########## ########## ########## ########## ##########  */ 
 /* ## TAG BORT kommentarna på de 2 följande raderna när ni skrivit era samlingar */
 		containerSLC   = new SLCWithGet<TestMapWithCounter.TestMapEntry<String, List<Integer>>>(),
-		//containerSplay = new SplayWithGet<TestMapWithCounter.TestMapEntry<String, List<Integer>>>(),
+		containerSplay = new SplayWithGet<TestMapWithCounter.TestMapEntry<String, List<Integer>>>(),
 		containerBST   = new BSTwithGet<TestMapWithCounter.TestMapEntry<String, List<Integer>>>(),
 		containerAVL   = new AVLwithGet<TestMapWithCounter.TestMapEntry<String, List<Integer>>>();
 
 
 /*  ########## ########## ########## ########## ##########  */  
 /* ###### LÄGG TILL kommentarer på de 2 följande raderna när ni skrivit era samlingar */
-	//TestMapWithCounter<String,List<Integer>> slcMap = null;
-	TestMapWithCounter<String,List<Integer>> splayMap = null;
+	////TestMapWithCounter<String,List<Integer>> slcMap = null;
+	////TestMapWithCounter<String,List<Integer>> splayMap = null;
 
 	TestMapWithCounter<String,List<Integer>>
 /*  ########## ########## ########## ########## ##########  */  
 /* ###### TAG BORT kommentarna på de 2 följande raderna när ni skrivit era samlingar */
 		slcMap = new TestMapWithCounter<String,List<Integer>>(containerSLC),
-		//splayMap = new TestMapWithCounter<String,List<Integer>>(containerSplay),
-	
+		splayMap = new TestMapWithCounter<String,List<Integer>>(containerSplay),
 		bstMap = new TestMapWithCounter<String,List<Integer>>(containerBST),
 		avlMap = new TestMapWithCounter<String,List<Integer>>(containerAVL);
 
@@ -78,7 +77,7 @@ public class TestFrame extends JFrame implements ActionListener {
 				map = bstMap;
 			else if ( e.getSource() == avl )
 				map = avlMap;
-			else  
+			else
 				map = splayMap;
 		}
 	}
@@ -163,6 +162,7 @@ public class TestFrame extends JFrame implements ActionListener {
 			if (map==null) {
 				listModel.clear();
 				listModel.addElement("NO Collection implemented!");
+				System.out.println("NO COLLECTION , map == null!");
 				return;
 			}
 			map.clear();
@@ -190,7 +190,9 @@ public class TestFrame extends JFrame implements ActionListener {
 					"File " + (indata != null ? indata.getName() : "System.in" ) 
 						+ " could not be opened !!" ); 
 			} 
-			catch( NullPointerException ex) { 
+			catch( NullPointerException ex) {
+				ex.printStackTrace();
+				System.out.println("We got a Nullpointer");
 				listModel.addElement("NO Collection implemented");
 			}
 		}
@@ -235,10 +237,12 @@ public class TestFrame extends JFrame implements ActionListener {
 	public static void main(String[] args) {
 		new TestFrame();
 		//testSLC();
+		//testSplay();
 
 
 
 	}
+
 	public static void testSLC(){
 		SLCWithGet<SpecialString> slc = new SLCWithGet<>();
 		slc.add(new SpecialString("a"));
@@ -277,6 +281,31 @@ public class TestFrame extends JFrame implements ActionListener {
 		System.out.println(slc.get(new SpecialString("f")));
 	}
 
+	public static void testSplay(){
+		//Detta är trädet som finns i PDF filen
+		SplayWithGet<Integer> splayTree2 = new SplayWithGet<Integer>();
+		splayTree2.add(8);
+		splayTree2.add(3);
+		splayTree2.add(4);
+		splayTree2.add(6);
+		splayTree2.add(5);
+		splayTree2.add(7);
+		splayTree2.add(10);
+		splayTree2.add(11);
+		splayTree2.add(12);
+		splayTree2.add(15);
+		splayTree2.add(13);
+		splayTree2.add(14);
+		splayTree2.add(17);
+
+		//Roten är 8, vi hämtar 14, sedan hämtar vi 8, då borde trädet vara likt det vi hade från början, dock inte samma.
+		System.out.println(splayTree2.toString());
+		splayTree2.get(14);
+		System.out.println(splayTree2.toString());
+		splayTree2.get(8);
+		System.out.println(splayTree2.toString());
+
+	}
 }
 
 class SpecialString implements Comparable<SpecialString> {

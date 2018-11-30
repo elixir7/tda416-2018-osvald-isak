@@ -75,7 +75,7 @@ public class LinkedCollection<E> extends AbstractCollection<E> {
 	* 
 	* @param element the object to add into the list
 	* @return true if the object has been added to the list.
-	* @throws NullPointerException if parameter <tt>element<tt> is null. 
+	* @throws NullPointerException if parameter <tt>element</tt> is null.
 	*/
 	public boolean add( E element ) {
 		if ( element == null )

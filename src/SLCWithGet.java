@@ -17,7 +17,7 @@ public class SLCWithGet<E extends Comparable<? super E>>
     }
 
     /**
-     * Adds an element to the sorted list regarding it's value. What is the value? Natural order or comparator?
+     * Adds an element to the sorted list regarding it's value.
      * @param e Elementt to add to the list
      * @return If the operation was successful or not
      * @throws NullPointerException if the element is null
@@ -35,31 +35,19 @@ public class SLCWithGet<E extends Comparable<? super E>>
         }
 
         Entry p = head;
-        while(p != null){
-            if(e.compareTo(p.element) > 0) {
-                //The element is larger than the current
-                //If p.next = null => add e after p
-                //If e < p.next => add between (previous checked if p.next was null)
-                //else just keep going.
-                if(p.next == null){
-                    p.next = new Entry(e, null);
-                    break;
-                }else if( e.compareTo(p.next.element) < 0){
-                    p.next = new Entry(e, p.next);
-                    break;
-                }else{
-                    p = p.next;
-                }
-            }else if(e.compareTo(p.element) == 0) {
-                //Add a new entry after the first instance
-                p.next = new Entry(e, p.next);
-                break;
-            }else if(e.compareTo(p.element) < 0){
-                //Only the first comparison can lead to the case where e smaller than p
-                head = new Entry(e, head);
+        if(e.compareTo(p.element) <= 0){
+            head = new Entry(e, head);
+            return true;
+        }
+
+        while(p.next != null){
+            int comparator = e.compareTo(p.next.element);
+            if(comparator <= 0){
                 break;
             }
+            p = p.next;
         }
+        p.next =  new Entry(e, p.next);
         return true;
     }
 
@@ -77,7 +65,10 @@ public class SLCWithGet<E extends Comparable<? super E>>
 
         Entry p = head;
         while(p != null){
-            if(e.compareTo(p.element) == 0){
+            int comparator = e.compareTo(p.element);
+            if(comparator < 0){
+                return null;
+            }else if(comparator == 0){
                 return p.element;
             }
             p = p.next;

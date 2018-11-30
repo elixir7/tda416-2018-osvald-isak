@@ -172,7 +172,7 @@ public class BinarySearchTree<E extends Comparable<? super E>>
 	// ========== ========== ========== ==========
 	/**
 	* Add the element into the three at first proper empty place
-	* @param o the element to be included  
+	* @param elem the element to be included
 	* @returns true if the element is in included in the tree.
 	*/
 	public boolean add( E elem ) {
@@ -413,7 +413,7 @@ public class BinarySearchTree<E extends Comparable<? super E>>
 		// ========= ========= ========= ========= ========= =========
 		// ************ ADJUST to your preferences ************
 		// a state variable that determine what kind of printout is returned
-		boolean simple = true; 		// true => style is [ 1 2 3 4 5 6 ]
+		boolean simple = false; 		// true => style is [ 1 2 3 4 5 6 ]
 									// i.e. only content in preorder, no shape
 									// false => trye value of preorder
 		boolean preorder = true;	// true => preorder, 
